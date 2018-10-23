@@ -1,0 +1,11 @@
+obj with texture
+obj center move
+--- rgb (mesh)
+mask (mesh)
+depth map (mesh)
+segmentation (SMPL)
+
+
+problem now: ply can load with colored vectices but obj doesn't support it
+ply solution - add a node before diffuse BSDF which I don't if it is ok?
+https://blendersushi.blogspot.com/2012/03/basic-working-with-vertex-color.html
